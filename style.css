@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    Box-sizing: border-box;
+}
+body{
+    font-family:"source sans pro",sans-serif;
+}
+.container-topo{
+  width: 100%;
+  display:flex;
+  position:fixed;
+  flex-wrap:wrap;
+  background-color: azure;
+  Justify-content: space-around; 
+  align-items: center;
+  padding:5px 30px;
+}
+
+.container-topo span{
+    color:#025959;
+}
+.topo-logo img{
+    width:65px;
+    padding:10px 5px 10px 5px;
+}
+
+.topo-logo{
+    display:flex;
+   align-items: center;
+   padding-right: 600px;
+}
+.container-topo a{
+    text-decoration: none;
+    color:#1C2525;
+    font-size:15px;
+    font-weight: bold;
+    padding: 15px;
+}
+.container-links{
+    display:flex;
+    flex-wrap: wrap;
+}
+.container-links a{
+   color: #025959;
+}
+.container-banner{
+background-image: url(imagens/img-fundo.jpg);
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 85vh;
+background-size:cover;
+}
+.conteudo-banner{
+display:flex;
+flex-wrap: wrap;
+color: azure;
+justify-content: center;
+align-items: center;
+background:#ffffff33;
+border-radius: 10px;
+border:2px solid azure;
+}
+.conteudo-banner{
+   justify-content:space-evenly;
+   flex-direction: column;
+    flex-wrap: wrap;
+    color: azure;
+    text-align: center;
+    padding:50px 90px;
+    line-height: 100px;
+}
+.conteudo-banner h1{
+    font-size:50px;
+}
+.conteudo-banner p{
+    font-size: 25px;
+    font-weight:100;
+    color: azure;
+}
+.container-principal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin: 65px auto;
+    align-items: center;
+    line-height: 30px;
+    color:#3d3d3d;
+}
+.container-principal h1{
+color:#025959;
+}
+.quartos{
+ display: flex;
+Justify-content:center;
+flex-wrap: wrap;
+gap:30px;
+}
+.quartos img{
+    width: 400px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+.quartos a{
+    text-align: center;
+    text-decoration:none;
+    font-size:15px;
+    font-weight: bold;
+    color:#1C2525;
+    border-bottom: 2px solid #1D6C6A;
+    padding-bottom: 5px;
+}
+.quartos p{
+    border-bottom: 2px solid #1D6C6A;
+    padding: 25px;
+    color:#3d3d3d;
+    margin-left:25px;
+}
+.descricao-rota{
+    display: flex;
+    padding: 45px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.descricao-rota h2{
+color:#025959;  
+}
+
+.descricao-rota,p{
+ color:#3d3d3d; 
+ }
+.container-rota{
+    padding-top:45px;
+    padding-bottom:45px;
+   color: #3d3d3d;
+}
+.container-sobre{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction: column;
+background-color:azure;
+text-align: center;
+margin: 10px auto;
+}
+.container-cards{
+   display:flex;
+    max-width: 1024px;
+    margin:80px auto;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:30px;
+}
+.card {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    background-color: azure;
+    font-size:15px;
+    margin:40px 40px;
+  }
+  .container-card-descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    gap: 10px;
+
+  }
+  .container-card-img {
+    width: 30%;
+    height: 100%;
+  }
+  .container-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .container-descricao{
+    line-height: 50px;
+  }
+  .container-descricao h2{
+ color:#025959; 
+  }
+.container-card-descricao h3{
+color:#025959;
+}
+.container-card-descricao p{
+color: #3d3d3d;
+}
+.container-rodape{
+    background-color:#025159;
+    padding: 35px 50px;
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    color: azure;
+    gap:40px;
+}
+
+.rodape img{
+    width:25px;
+}
+.rodape a{
+align-items: center;
+text-decoration:none;
+color: azure;
+padding:10px;
+}
+.container-copyright p{
+color: azure;
+}
+.container-copyright{
+  font-weight: 200;
+  text-align: center;
+  border-top: 1px solid rgba(240, 255, 255, 0.877); 
+  background-color:#025159;
+  color: azure;
+  padding:20px;
+}
